@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Ruletón Activo - Home</title>
 
     <!-- Bootstrap core CSS -->
@@ -16,42 +13,54 @@
     <!-- Custom styles for this template -->
     <link href="../css/round-about.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="../css/Home.css" rel="stylesheet">
   </head>
-
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Ruletón Activo - Home</a>
+        <img src="../Recursos/Imagenes/Ruleton/Ruleton_Peru.jpg" style="height: 35px; margin: 2px;">
+        <a class="navbar-brand" href="#">Ruletón Activo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="#">Inicio
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">About</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Telegram</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- Header with Background Image -->
+    <header class="business-header">
+      <div class="container">
+        <div class="row">
+          
+        </div>
+      </div>
+
+
+    </header>
+
     <!-- Page Content -->
-    <div class="container" style="background-color: lightblue;">
-        <!-- Iconos Redes sociales -->
-        <div class="redes-sociales-lateral" style="margin-bottom: 0; position: fixed;top: 300px; right: 5px; z-index: 1000; ">
+    <div class="container" style="background-color: white;">
+      <!-- Iconos Redes sociales -->
+      <div class="redes-sociales-lateral" style="margin-bottom: 0; position: fixed;top: 300px; right: 5px; z-index: 1000; ">
         <ul style="list-style-type: none; padding-left: 0px!important;" >
           <li class="nav-item secondary" style="margin-bottom: 20px;">
             <a class="iconoRedesSociales" style="font-size: 25px!important;" href="https://www.linkedin.com/company/neotecnologias" target="_blank" title="Telegram">
@@ -69,72 +78,88 @@
             </a>
           </li>
         </ul>
-        </div>
-      <!-- Introduction Row -->
-      <div style="margin-top: 60px; background-color: lightcoral; justify-content: space-between; height: 50px;">
-        <div style="background-color: lightgoldenrodyellow; display: flex; float: left; height: 100%;">
-            <h2>Resultados</h2>
-        </div>
+      </div>
 
+      <!-- Introduction Row margin-top: 60px;-->
+      <div style=" background-color: lightcoral; justify-content: space-between; height: 50px;">
+        <div style="background-color: lightgoldenrodyellow; display: flex; float: left; height: 100%;">
+          <h2>Resultados</h2>
+        </div>
+        
         <div style="background-color: lightgreen; 
         display: flex; 
         float: right; 
         height: 100%; 
         align-items: center; 
         justify-content: center;">
-            
-                <label for="birthdaytime" >Fecha: </label>
-                <input class="Month view" type="datetime" id="birthdaytime" name="birthdaytime" >
-            
+          <label for="birthdaytime" class="font-weight-bold" style="margin: 0 10px">Fecha: </label>
+          <input class="Month view" type="datetime" id="birthdaytime" name="birthdaytime" >
         </div>
       </div> 
 
       <!-- Team Members Row -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Our Team</h2>
+      <div class="row contenedorResultados" style="margin-top: 50px;">
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Rana_Peru.jpg" alt="">
+          <h3>Rana</h3>
+          <p>6 - 09:00 AM </p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Ardilla_Peru.jpg" alt="">
+          <h3>Ardilla</h3>
+          <p>32 - 10:00 AM</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Ballena_Peru.jpg" alt="">
+          <h3>Ballena</h3>
+          <p>00 - 11:00 AM</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Caiman_Peru.jpg" alt="">
+          <h3>Caiman</h3>
+          <p>30 - 12:00 PM</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Camello_Peru.jpg" alt="">
+          <h3>Camello</h3>
+          <p>22 - 2:00 PM</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Cebra_Peru.jpg" alt="">
+          <h3>Cebra</h3>
+          <p>23 - 3:00 PM</p>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Delfin_Peru.jpg" alt="">
+          <h3>Delfin</h3>
+          <p>0 - 4:00 PM </p>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Elefante_Peru.jpg" alt="">
+          <h3>Elefante</h3>
+          <p>29 - 5:00 PM</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Gallina_Peru.jpg" alt="">
+          <h3>Gallina</h3>
+          <p>25 - 6:00 PM</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Iguana_Peru.jpg" alt="">
+          <h3>Iguana</h3>
+          <p>24 - 7:00 PM</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Leon_Peru.jpg" alt="">
+          <h3>Leon</h3>
+          <p>5 - 8:00 PM</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="../Recursos/Imagenes/Peru/Mono_Peru.jpg" alt="">
+          <h3>Mono</h3>
+          <p>13 - 9:00 PM</p>
         </div>
       </div>
 
@@ -144,7 +169,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Todos los derechos reservados &copy; Ruletón Activo 2020</p>
       </div>
       <!-- /.container -->
     </footer>
